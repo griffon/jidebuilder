@@ -34,7 +34,7 @@ repositories {
 dependencies {
     groovy  "org.codehaus.groovy:groovy-all:$groovyVersion"
     compile "org.codehaus.groovy:groovy-all:$groovyVersion",
-            'com.jidesoft:jide-oss:2.10.2',
+            'com.jidesoft:jide-oss:3.4.7',
             'com.kitfox.svg:svg-salamander:1.1'
     testCompile "junit:junit:4.8.2"
     deployerJars 'org.apache.maven.wagon:wagon-webdav:1.0-beta-2',
